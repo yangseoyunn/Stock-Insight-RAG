@@ -5,7 +5,7 @@
 
 --- 
 ### 🛠 Key Features
-- **Knowledge-Based Retrieval**: `data/stock_kb.txt`에 저장된 전문적인 주식 투자 지표 및 거시 경제 데이터를 바탕으로 hallucination 현상을 최소화한 답변을 생성합니다.
+- **Knowledge-Based Retrieval**: `data/stock_kb.txt`에 저장된 간단한 주식 투자 기본 원칙, 주요 재무 지표, 거시 경제 원리를 바탕으로 hallucination 현상을 최소화한 답변을 생성합니다.
 
 - **High-Performance Inference**: Groq 엔진과 Llama-3.3-70b 모델을 결합하여 실시간에 가까운 빠른 추론 속도를 구현했습니다.
 
@@ -30,7 +30,7 @@
 . 
 ├── README.md                 
 └── Stock-Insight-RAG/        
-    ├── app.py                # Streamlit 기반 챗봇 서비스 코
+    ├── app.py                # Streamlit 기반 챗봇 서비스 코드
     ├── data/                 # 지식 베이스 폴더
     │   └── stock_kb.txt      # 주식 도메인 지식 베이스
     └── dataset/              # 피드백 데이터 저장 폴더
