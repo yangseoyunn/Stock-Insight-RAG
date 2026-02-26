@@ -35,3 +35,10 @@
     │   └── stock_kb.txt      # 주식 도메인 지식 베이스
     └── dataset/              # 피드백 데이터 저장 폴더
         └── feedback.jsonl    # 수집된 RLHF 피드백 데이터셋
+
+---
+
+### Example
+
+![screenshot](example01.png)
+![screenshot](example02.png)
