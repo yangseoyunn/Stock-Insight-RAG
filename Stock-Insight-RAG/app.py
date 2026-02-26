@@ -10,7 +10,7 @@ from langchain_groq import ChatGroq
 from langchain_classic.chains import RetrievalQA
 
 # 1. API Key 설정
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "API Key를 입력해 주세요."
 
 # 2. 웹 페이지 UI 기본 설정
 st.set_page_config(page_title="Stock RAG Chatbot", page_icon="📈", layout="centered")
@@ -89,4 +89,5 @@ if st.session_state.current_qa:
                 "피드백이 저장되었습니다. 도움을 주셔서 감사합니다 😊 (`dataset/feedback.jsonl`)"
             )
             st.session_state.current_qa = None  # 완료 후 상태 초기화
+
 
