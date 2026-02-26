@@ -21,7 +21,7 @@ st.caption("RLHF 피드백 수집 파이프라인 구축")
 # 3. RAG 지식 베이스 구축 (한 번만 로드하도록 캐싱)
 @st.cache_resource
 def init_rag():
-    loader = TextLoader("data/kb.txt", encoding="utf-8")
+    loader = TextLoader("data/stock_kb.txt", encoding="utf-8")
     documents = loader.load()
     text_splitter = CharacterTextSplitter(chunk_size=300, chunk_overlap=30)
     texts = text_splitter.split_documents(documents)
@@ -89,3 +89,4 @@ if st.session_state.current_qa:
                 "피드백이 저장되었습니다. 도움을 주셔서 감사합니다 😊 (`dataset/feedback.jsonl`)"
             )
             st.session_state.current_qa = None  # 완료 후 상태 초기화
+
