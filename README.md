@@ -28,14 +28,16 @@
 
 ```text          
 . 
-├── README.md                 
+├── README.md
+├── example01.png
+├── example02.png              
 └── Stock-Insight-RAG/        
     ├── app.py                # Streamlit 기반 챗봇 서비스 코드
     ├── data/                 # 지식 베이스 폴더
     │   └── stock_kb.txt      # 주식 도메인 지식 베이스
     └── dataset/              # 피드백 데이터 저장 폴더
         └── feedback.jsonl    # 수집된 RLHF 피드백 데이터셋
-
+```
 ---
 
 ### Example
