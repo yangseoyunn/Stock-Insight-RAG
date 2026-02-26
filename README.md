@@ -1,7 +1,7 @@
 # 📈 Stock-Insight-RAG: RAG 기반 주식 Q&A 서비스 및 RLHF 피드백 수집 시스템
 
 ### 🎯 Project Overview
-본 프로젝트는 금융 도메인의 특수성을 고려하여, 외부 지식 베이스를 활용한 **RAG(Retrieval-Augmented Generation)** 시스템을 구축하고, 모델의 답변 품질 개선을 위한 **RLHF(Reinforce Learning from Human Feedback)** 리워드 데이터셋을 수집하는 파이프라인 실험입니다.
+본 프로젝트는 금융 도메인의 정보 정확성을 확보하기 위해 외부 지식 베이스를 활용한 **RAG(Retrieval-Augmented Generation)** 시스템을 구축하고, 모델의 답변 품질 개선을 위한 **RLHF(Reinforcement Learning from Human Feedback)** 리워드 데이터셋을 수집하는 파이프라인 실험입니다.
 
 --- 
 ### 🛠 Key Features
